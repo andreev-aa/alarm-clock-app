@@ -1,0 +1,57 @@
+@import './normalize.css';
+
+.wrapper {
+    display: flex;
+    align-self: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background: rgb(79,37,204);
+    background: url(./mars2.png) no-repeat 50% -60%, linear-gradient(180deg, rgb(35, 18, 85) 1%, rgb(225, 110, 110) 100%);
+}
+
+.title {
+    font: 3em sans-serif;
+    color: aliceblue;
+}
+
+.currentTime {
+    font: 2em sans-serif;
+    color: rgba(240, 248, 255, 0.8) ;
+}
+
+.alarmInput {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    font: 2em sans-serif;
+}
+
+.alarmInput__setTime {
+    font-size: 1.2em;
+    border-radius: 5px;
+    outline: none;
+    border: 0;
+    width: 4em;
+}
+
+.button {
+    margin-top: 10px;
+    font-size: 0.5em;
+    border-radius: 5px;
+    border: 0;
+    padding: 5px;
+}
+
+
+.image {
+    width: 300px;
+    height: 300px;
+    margin-top: 40px;
+    background-image: url(./image.png);
+    background-position: center;
+    background-size: contain;
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+<div class="wrapper">
+    <h1 class="title">Wake Up, Rocket Man!</h1>
+    <div class="currentTime">Тут время</div>
+    <div class="alarmInput">
+        <input type="time" class="alarmInput__setTime" required="required" list="time-list" autofocus="autofocus">
+        <datalist id="time-list">
+            <option value="08:00" label="Начало рабочего дня">
+            <option value="12:00" label="Обед">
+            <option value="17:00" label="Конец рабочего дня">
+            </datalist>
+        <button onclick="setAlarm();" class="button">Установить будильник</button>
+    </div>
+    <div class="image"></div>
+</div>
+
+</body>
+</html>
